@@ -17,10 +17,10 @@ Note that you may have to `chmod a+x your_script` to get it to run.
 
 #### Local Constants
 
-`window` - an `NSWindow` with standard window controls. Closing the window with the close control will automatically close the script
-`viewController` - an `NSViewController` as the `contentViewController` of `window`
-`view` - an `NSView` managed by `viewController`. It's configured to `wantsLayer`
-`layer` - the `CALayer` acting as the backing store of `view`
+ - `window` - an `NSWindow` with standard window controls. Closing the window with the close control will automatically close the script
+ - `viewController` - an `NSViewController` as the `contentViewController` of `window`
+ - `view` - an `NSView` managed by `viewController`. It's configured to `wantsLayer`
+ - `layer` - the `CALayer` acting as the backing store of `view`
 
 ### Using minified `appdirt`
 
