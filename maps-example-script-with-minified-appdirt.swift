@@ -12,15 +12,10 @@ view.addSubview(mapView)
 
 mapView.showsZoomControls = true
 mapView.showsCompass = true
-mapView.rotateEnabled = true
 
-let location = CLLocationCoordinate2D(latitude:37.727, longitude:-122.761)
-mapView.setCenterCoordinate(location, animated:true)
-let origin = MKMapPointForCoordinate(location)
-let sizeDimension: Double = 1000000
-let size = MKMapSize(width: sizeDimension, height: sizeDimension)
-let rect = MKMapRect(origin: origin, size: size)
+let latitude = 37.727
+let longitude = -122.761
 
-mapView.setVisibleMapRect(rect, animated:true)
+mapView.setVisibleMapRect(MKMapRect(origin: MKMapPointForCoordinate(CLLocationCoordinate2D(latitude:latitude, longitude:longitude)), size: MKMapSize(width: 1000000, height: 1000000)), animated:true)
 
 run()
