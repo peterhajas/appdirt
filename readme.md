@@ -32,6 +32,13 @@ Most scripts will want to use the minified version of `appdirt` - see the sectio
 
 To use un-minified `appdirt`, copy the contents of `appdirt.swift` into your script. At the end of your script, call `NSApplication.sharedApplication().run()` to start the `NSApplication` event loop.
 
+### Examples
+
+`appdirt` comes with 2 examples:
+
+ - An example webkit-based Wikipedia viewer (11 lines of script content) `wikipedia-example-script-with-minified-appdirt.swift`
+ - An example map viewer (12 lines of script content) `maps-example-script-with-minified-appdirt.swift`
+
 ### Licensing
 
 See `license.md`.
