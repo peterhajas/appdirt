@@ -36,8 +36,13 @@ To use un-minified `appdirt`, copy the contents of `appdirt.swift` into your scr
 
 `appdirt` comes with 2 examples:
 
- - An example webkit-based Wikipedia viewer (11 lines of script content) `wikipedia-example-script-with-minified-appdirt.swift`
- - An example map viewer (12 lines of script content) `maps-example-script-with-minified-appdirt.swift`
+An example webkit-based Wikipedia viewer  `wikipedia-example-script-with-minified-appdirt.swift`
+![wikipedia_screenshot](wikipedia_screenshot.png)
+(11 lines of script content)
+
+An example map viewer  `maps-example-script-with-minified-appdirt.swift`
+![map_screenshot](map_screenshot.png)
+(12 lines of script content)
 
 ### Licensing
 
